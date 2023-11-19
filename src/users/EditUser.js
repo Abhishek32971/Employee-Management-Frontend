@@ -213,7 +213,7 @@ export default function EditUser() {
 
 
 
-            <button type="submit" className="btn btn-outline-primary">
+            <button type="submit" className="btn btn-color">
               Submit
             </button>
             <Link

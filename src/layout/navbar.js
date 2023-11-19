@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export default function navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-p">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             Employee Management System
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler btn-color"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

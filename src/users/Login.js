@@ -1,6 +1,7 @@
 // Login.js
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./Login.css";
 
 export default function Login() {
   const [credentials, setCredentials] = useState({ username: "", password: "" });
@@ -64,7 +65,7 @@ export default function Login() {
               />
             </div>
 
-            <button type="submit" className="btn btn-outline-primary">
+            <button type="submit" className="btn btn-outline-primary btn-color">
               Login
             </button>
 

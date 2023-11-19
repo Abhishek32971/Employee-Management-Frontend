@@ -49,14 +49,14 @@ export default function Home() {
                 <td>{user.days_worked}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
+                    className="btn mx-2 btn-color"
                     to={`/viewuser/${user._id}`}
                   >
                     View
                   </Link>
 
                   <Link
-                    className="btn btn-outline-primary mx-2"
+                    className="btn btn-color2 mx-2"
                     to={`/edituser/${user._id}`}
                   >
                     Edit
